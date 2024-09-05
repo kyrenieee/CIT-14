@@ -1,24 +1,18 @@
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-
-.p1 {
-    font-family: Arial, Helvetica, sans-serif;;
+body {
+  background-color: #F5EDED;
+}
+h1 {
+  color: #24426d;
+  font-family: 'Trebuchet MS', 'sans-serif';
+  font-size: 250%;
+}
+h2 {
+  color: #24426d;
+  font-family: 'Trebuchet MS', 'sans-serif';
+  font-size: 150%;
+}
+p {
+  color: #7995b1;
+  font-family: 'Trebuchet MS', 'sans-serif';
+  font-size: 100%;
 }
