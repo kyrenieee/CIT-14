@@ -5,7 +5,7 @@ h1 {
   color: #24426d;
   font-family: 'Trebuchet MS', 'sans-serif';
   font-size: 250%;
-  font-style: italic;
+  font-style: bold;
 }
 
 h2 {
@@ -70,7 +70,7 @@ a:visited {
   color: white;
   padding: 5px 20px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: overline;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
