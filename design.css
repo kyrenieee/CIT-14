@@ -1,5 +1,5 @@
 body {
-  background-color: #F5EDED;
+  background-color: #FAFAFA;
 }
 h1 {
   color: #24426d;
@@ -7,24 +7,41 @@ h1 {
   font-size: 250%;
   font-style: italic;
 }
+
 h2 {
   color: #24426d;
   font-family: 'Trebuchet MS', 'sans-serif';
   font-size: 150%;
 }
+
 p {
   color: #7995b1;
   font-family: 'Trebuchet MS', 'sans-serif';
   font-size: 100%;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 100%;
+
+.center {
+  text-align: center;
+  border: 3px solid rgb(0, 32, 69);
+  border-style: double;
 }
 
-img1 {
+.index {
+  text-align: center;
+  border: 3px solid rgb(0, 32, 69);
+  border-style: double;
+}
+
+
+.image1{
+  object-fit: cover;
+}
+
+.image1:hover {
+  box-shadow: 0 0 4px 5px rgba(255, 180, 251, 0.5);
+}
+
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -35,3 +52,15 @@ img:hover {
   box-shadow: 0 0 4px 5px rgba(0, 140, 186, 0.5);
 }
 
+.button {
+  background-color: #C2CFD8;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
