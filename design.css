@@ -52,6 +52,18 @@ img:hover {
   box-shadow: 0 0 4px 5px rgba(0, 140, 186, 0.5);
 }
 
+a:link {
+  color: #24426d;
+  font-family: 'Trebuchet MS', 'sans-serif';
+}
+
+a:visited {
+  color: #24426d;
+  font-family: 'Trebuchet MS', 'sans-serif';
+}
+
+
+
 .button {
   background-color: #C2CFD8;
   border: none;
