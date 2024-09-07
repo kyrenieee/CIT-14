@@ -38,7 +38,7 @@ p {
 }
 
 .image1:hover {
-  box-shadow: 0 0 4px 5px rgba(255, 180, 251, 0.5);
+  box-shadow: 0 0 4px 5px rgba(180, 240, 255, 0.5);
 }
 
 img {
@@ -70,7 +70,6 @@ a:visited {
   color: white;
   padding: 5px 20px;
   text-align: center;
-  text-decoration: overline;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
