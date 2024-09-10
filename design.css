@@ -1,5 +1,5 @@
 body {
-  background-color: #FAFAFA;
+  background-color: #dfeefa;
 }
 h1 {
   color: #24426d;
@@ -68,7 +68,22 @@ img {
   margin-bottom: 20px;
   margin-top: 20px;
   border-radius: 100%;
+  object-fit: cover;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  padding: 5px;
+}
+
 
 img:hover {
   box-shadow: 0 0 4px 5px rgba(0, 140, 186, 0.5);
@@ -84,15 +99,3 @@ a:visited {
   font-family: 'Trebuchet MS', 'sans-serif';
 }
 
-
-
-.button {
-  background-color: #C2CFD8;
-  border: none;
-  color: white;
-  padding: 5px 20px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
