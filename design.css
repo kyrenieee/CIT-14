@@ -14,10 +14,18 @@ h2 {
   font-size: 150%;
 }
 
+section h2 {
+  margin-bottom: 10px;
+}
+
 p {
   color: #7995b1;
   font-family: 'Trebuchet MS', 'sans-serif';
   font-size: 100%;
+}
+
+section p {
+  margin-top: 10px;
 }
 
 .fa-github {
@@ -92,7 +100,7 @@ img {
 
 .column {
   flex: 10%;
-  padding: 5px;
+  padding-left: 5px;
 }
 
 
